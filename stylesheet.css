@@ -1,0 +1,106 @@
+.center-format {
+    margin: auto;
+    padding: 8px;
+    min-width: 200px;
+    max-width: fit-content;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+html {
+    /*background: url("./img/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-373.jpg");
+    background-size: cover;
+    background-repeat: no-repeat !important;*/
+    background-color: #041838;
+}
+
+body {
+    border: 8px solid #444;
+    border-radius: 12px;
+    border-width:4px;
+    background-color:White;
+    margin:30px;
+    margin-top: 70px !important;
+    font-family: Ariel, sans-serif;
+}
+
+.marquee-container {
+    overflow: hidden;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+    width: fit-content;
+    justify-content: space-around;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-25%);
+    }
+}
+
+span.marquee-span {
+    font-family: Papyrus;
+}
+
+span a.marquee-link {
+    text-decoration: none !important;
+    color: black;
+}
+
+h1 {
+    font-family: Serif, Times New Roman;
+}
+
+.marquee-content:hover span a.marquee-link {
+    color: blue !important;
+}
+
+header.header {
+    background-color: #08285c;
+    font-family: Serif, Times New Roman;
+    border-radius: 5px;
+    color: white;
+}
+
+.no-top-margin {
+    margin-top: 0 !important;
+}
+
+nav.nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav div.nav-left-content {
+    align-items: center;
+    gap: 5px
+}
+
+span.centered {
+    display: inline-block;
+    margin: 3px;
+}
+
+img.circle-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 3px;
+}
