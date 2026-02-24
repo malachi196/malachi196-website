@@ -1,3 +1,9 @@
 .idea/
 test.ts
 script.js
+./resume-latex/mypic.png
+./resume-latex/resume.aux
+./resume-latex/resume.cls
+./resume-latex/resume.out
+./resume-latex/resume.log
+./resume-latex/resume.pdf

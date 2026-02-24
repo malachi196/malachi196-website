@@ -83,6 +83,16 @@ span a.marquee-link {
     color: black;
 }
 
+span.centered {
+    display: inline-block;
+    margin: 3px;
+}
+
+span.minimumheight {
+    display: block;
+    height: fit-content !important;
+}
+
 h1 {
     font-family: Serif, Times New Roman;
 }
@@ -145,9 +155,8 @@ nav div a.nav-item:hover {
     color: #040114;
 }
 
-span.centered {
-    display: inline-block;
-    margin: 3px;
+p.special-centered {
+    margin: 0 auto;
 }
 
 img.circle-img {
@@ -164,4 +173,17 @@ div.mininumsize {
 
 a, a:visited {
     color: blue;
+}
+
+.small-margin-on-right {
+    margin: 10px;
+}
+
+.no-pad-top-or-bottom {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.no-bottom-pad {
+    padding-bottom: 0 !important;
 }
