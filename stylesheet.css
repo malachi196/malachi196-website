@@ -34,6 +34,11 @@ html {
     background-size: cover;
     background-repeat: no-repeat !important;*/
     background-color: #041838;
+    scroll-behavior: smooth;
+}
+
+.scroll-target-section {
+    scroll-margin-top: 72px;
 }
 
 body {
@@ -106,8 +111,11 @@ nav.nav {
     top: 0;
     /*background-color: rgba(0, 0, 0, 0);*/
     background-color:#040114;
-    width: 100%;
+    margin-left: -40px;
+    margin-right: -20px;
+    width: calc(100% + 60px);
     box-sizing: border-box;
+    z-index: 999;
 }
 
 nav.nav.scrolled {
@@ -118,7 +126,23 @@ nav.nav.scrolled {
 
 nav div.nav-left-content {
     align-items: center;
-    /*gap: 5px*/
+    gap: 5px;
+    margin-left: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+nav div a.nav-item {
+    letter-spacing: 1px;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: None;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+nav div a.nav-item:hover {
+    background-color: white;
+    color: #040114;
 }
 
 span.centered {
