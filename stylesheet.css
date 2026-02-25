@@ -51,6 +51,10 @@ body {
     font-family: Ariel, sans-serif;
 }
 
+.maxwidth500 {
+    max-width: 500px;
+}
+
 .marquee-container {
     overflow: hidden;
     width: 100% !important;
@@ -186,4 +190,8 @@ a, a:visited {
 
 .no-bottom-pad {
     padding-bottom: 0 !important;
+}
+
+.timesnewromanfont {
+    font-family: Times New Roman;
 }
